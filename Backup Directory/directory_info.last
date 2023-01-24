@@ -1,0 +1,14 @@
+./dir:
+total 12
+-rw-rw-r-- 1 youssef youssef  209 Oct 20 22:34 file1.txt
+-rw-rw-r-- 1 youssef youssef   33 Oct 18 16:41 file2.txt
+-rw-rw-r-- 1 youssef youssef    0 Oct 11 18:53 file3.txt
+-rw-rw-r-- 1 youssef youssef    0 Oct 11 18:53 file4.txt
+-rw-rw-r-- 1 youssef youssef    0 Oct 11 18:53 file5.txt
+drwxrwxr-x 2 youssef youssef 4096 Oct 19 22:43 subdir
+
+./dir/subdir:
+total 8
+-rw-rw-r-- 1 youssef youssef 7 Oct 12 20:56 fileA.txt
+-rw-rw-r-- 1 youssef youssef 0 Oct 11 19:04 fileB.txt
+-rw-rw-r-- 1 youssef youssef 7 Oct 19 22:43 fileC.txt
