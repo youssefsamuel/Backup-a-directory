@@ -140,7 +140,7 @@ done
 7. Finally the current information of the directory is copied to the file called "directory_info.last" to be ready for the next iteration.
 8. The infinite loop will continue, until the user press Ctrl+c from the terminal to stop the program.
 
-# Bonus Part (Cron Job)
+# Additional Part (Cron Job)
 ## Configuration
 To set the cron job to run in your system follow the following steps:
 
@@ -179,7 +179,7 @@ When the code runs, we first add the information of the directory to the directo
 
 A final thing need to be explained, when the cron job runs for the first time, the directory_info.last will be empty, so the script will always check if that file is empty. If empty, just create a new backup, copy directory_info.new to directory_info.last and exit.
 
-## Answer of Lab Question
+
 ### What should be the cron expression if I need to run this backup every 3rd Friday of the month at 12:31 am?
 ```bash
 "31 0 15-21 * 5 /bin/bash $(bashscript_path) $(source_dir_path) $(backupdir_path)  2"
